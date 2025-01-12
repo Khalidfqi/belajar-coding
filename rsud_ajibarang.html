@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSUD Ajibarang</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="RSUD Ajibarang Logo">
+            <h1>RSUD Ajibarang</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#doctors">Dokter</a></li>
+                <li><a href="#register">Pendaftaran</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Selamat Datang di RSUD Ajibarang</h2>
+        <p>Memberikan layanan kesehatan terbaik untuk masyarakat dengan fasilitas lengkap dan tenaga medis profesional.</p>
+    </section>
+
+    <section id="services">
+        <h2>Layanan Kami</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Poliklinik Umum</h3>
+                <p>Layanan konsultasi kesehatan umum.</p>
+            </div>
+            <div class="service-item">
+                <h3>Poliklinik Gigi</h3>
+                <p>Perawatan kesehatan gigi dan mulut.</p>
+            </div>
+            <div class="service-item">
+                <h3>UGD 24 Jam</h3>
+                <p>Layanan darurat 24 jam dengan tenaga medis siap siaga.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="doctors">
+        <h2>Jadwal Dokter</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Dokter</th>
+                    <th>Spesialis</th>
+                    <th>Jadwal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dr. Andi Wijaya</td>
+                    <td>Umum</td>
+                    <td>Senin - Jumat (08:00 - 16:00)</td>
+                </tr>
+                <tr>
+                    <td>Dr. Siti Rahmawati</td>
+                    <td>Gigi</td>
+                    <td>Senin - Sabtu (09:00 - 15:00)</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="register">
+        <h2>Pendaftaran Online</h2>
+        <form id="registration-form">
+            <label for="name">Nama Lengkap:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="dob">Tanggal Lahir:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="service">Pilih Layanan:</label>
+            <select id="service" name="service">
+                <option value="poliklinik">Poliklinik Umum</option>
+                <option value="gigi">Poliklinik Gigi</option>
+                <option value="ugd">UGD</option>
+            </select>
+
+            <label for="date">Tanggal Kunjungan:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Daftar</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Email: info@rsudajibarang.go.id</p>
+        <p>Telepon: (0281) 123-456</p>
+        <p>Alamat: Jl. Raya Ajibarang No.10, Banyumas</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 RSUD Ajibarang. All rights reserved.</p>
+    </footer>
+</body>
+</html>
